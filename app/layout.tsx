@@ -8,7 +8,8 @@ import "./styles.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import BlogCard from "./components/BlogCard";
+import BlogCardGrid from "./components/BlogCardGrid";
+
 
 const lato = Lato({
   subsets: ["latin"],
@@ -36,10 +37,9 @@ export default function RootLayout({
     <html lang="en" className={clsx(lato.variable, montserrat.variable)}>
       <body>
         <Header />
-      
-        <main>
-          {children} 
-           <BlogCard />
+
+        <main>{children}
+          <BlogCardGrid />
         </main>
         <Footer />
       </body>

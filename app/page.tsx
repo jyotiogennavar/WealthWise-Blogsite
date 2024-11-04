@@ -3,6 +3,7 @@ import clsx from "clsx";
 import Image from "next/image";
 import styles from "./homepage.module.css";
 
+
 function Home() {
   return (
     <div className={clsx(styles.wrapper)}>
@@ -28,6 +29,8 @@ function Home() {
         </div>
       </div>
     </div>
+
+    
   );
 }
 
