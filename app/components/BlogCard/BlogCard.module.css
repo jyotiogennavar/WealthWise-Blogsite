@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+
+  border: 1px solid #e0e0e0;
+}
+
+.blogCardImgContainer {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+
+
+}
+
+.blogCardTextContainer {
+  padding: 20px;
+}
+
+.blogTag {
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 0.8rem;
+}
+
+.blogCardTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
