@@ -13,5 +13,18 @@
   margin-bottom: 4rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 3rem;
+}
+
+.grid > * {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 2;
+}
+
+@supports not (grid-template-rows: subgrid) {
+  .grid > * {
+    display: flex;
+    flex-direction: column;
+  }
 }
