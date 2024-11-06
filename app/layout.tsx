@@ -8,7 +8,7 @@ import "./styles.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import BlogCardGrid from "./components/BlogCardGrid";
+// import BlogCardGrid from "./components/BlogCardGrid";
 
 
 const lato = Lato({
@@ -39,7 +39,7 @@ export default function RootLayout({
         <Header />
 
         <main>{children}
-          <BlogCardGrid />
+          {/* <BlogCardGrid /> */}
         </main>
         <Footer />
       </body>

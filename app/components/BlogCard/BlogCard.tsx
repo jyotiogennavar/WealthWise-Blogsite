@@ -27,9 +27,6 @@ function BlogCard({
       >
         <Image src={imageUrl} alt={title} fill className="object-cover" />
       </motion.div>
-      {/* <div className={clsx(styles.blogCardImgContainer)}>
-        <Image src={imageUrl} alt={title} fill className="object-cover" />
-      </div> */}
       <div className={clsx(styles.blogCardTextContainer)}>
         <span className={clsx(styles.blogTag)}>{tag}</span>
         <h3 className={clsx(styles.blogCardTitle)}>{title}</h3>

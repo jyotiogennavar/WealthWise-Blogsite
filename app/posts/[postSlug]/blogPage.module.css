@@ -1,0 +1,13 @@
+.wrapper {
+  width: 100%;
+  max-width: 80rem;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 35rem) {
+  .wrapper {
+    padding: 0 var(--viewport-padding);
+  }
+}

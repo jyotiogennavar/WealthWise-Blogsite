@@ -3,6 +3,7 @@ import clsx from "clsx";
 import Image from "next/image";
 import styles from "./homepage.module.css";
 
+import BlogCardGrid from "./components/BlogCardGrid";
 
 function Home() {
   return (
@@ -11,8 +12,8 @@ function Home() {
         <Image
           src="/image/homepage_banner.png"
           alt="Banner"
-          layout="fill"
-          objectFit="cover"
+          fill
+          className="object cover"
         />
 
         <div className={clsx(styles.bannerTextContainer)}>
@@ -28,9 +29,8 @@ function Home() {
           </div>
         </div>
       </div>
+      <BlogCardGrid />
     </div>
-
-    
   );
 }
 
