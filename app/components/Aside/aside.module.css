@@ -1,0 +1,38 @@
+/* .aside {
+  position: sticky;
+} */
+
+
+.container h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+
+.tableOfContent {
+ list-style: none;
+  padding-left: 10px;
+}
+
+.tableOfContent li {
+  margin-bottom: 0.5rem;
+}
+
+.tableOfContent li a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--color-gray-700);
+}
+
+.tableOfContent li a:hover {
+  color: var(--color-gray-900);
+}
+
+.tableOfContent li a.active {
+  color: var(--color-gray-900);
+}
+
+.greyBorder {
+  border-bottom: 2px solid var(--color-gray-300);
+  margin-top: 1rem;
+  margin-bottom: 0.8rem ;
+}

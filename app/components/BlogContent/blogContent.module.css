@@ -1,0 +1,15 @@
+
+.wrapper h3 {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.9em;
+}
+
+.wrapper p {
+  letter-spacing: 1px;
+  line-height: 1.75rem;
+}
+
+.wrapper ul {
+  padding-left: 10px;
+}

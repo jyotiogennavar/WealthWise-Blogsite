@@ -1,0 +1,38 @@
+.newsletter {
+  border: 1px solid var(--color-gray-700);
+  padding: 2.5rem 1rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+
+.newsletter form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter input {
+  padding: 0.7rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--color-gray-700);
+  border-radius: 0.5rem;
+}
+
+.newsletter button {
+  padding: 0.8rem;
+  background-color: var(--color-gray-700);
+  color: var(--color-white);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: var(--color-gray-800);
+}
+
+.newsletter span {
+  font-size: 0.7rem;
+  color: var(--color-gray-500);
+  margin-top: 0.5rem;
+}

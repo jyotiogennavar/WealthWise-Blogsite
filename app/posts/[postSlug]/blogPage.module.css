@@ -6,8 +6,22 @@
   margin-right: auto;
 }
 
+.blogContentGrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
 @media (min-width: 35rem) {
   .wrapper {
     padding: 0 var(--viewport-padding);
+  }
+
+  .blogContentGrid {
+    margin-top: 4rem;
+    grid-template-columns: 50rem 1fr;
+    column-gap: 5rem;
+    
   }
 }

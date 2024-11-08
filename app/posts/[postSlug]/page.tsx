@@ -2,6 +2,8 @@ import React from "react";
 import clsx from "clsx";
 import styles from "./blogPage.module.css";
 import BlogHero from "../../components/BlogHero/BlogHero";
+import BlogContent from "../../components/BlogContent/BlogContent";
+import Aside from "../../components/Aside";
 
 function BlogPage() {
   return (
@@ -12,6 +14,11 @@ function BlogPage() {
         publishedOn="2023-10-01" 
         imageUrl="/image/homepage_banner.png"
       />
+
+      <div className={clsx(styles.blogContentGrid)}>
+        <BlogContent />
+        <Aside />
+      </div>
     </div>
   );
 }
