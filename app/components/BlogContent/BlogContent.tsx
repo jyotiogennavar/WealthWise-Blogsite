@@ -101,7 +101,7 @@ function BlogContent() {
 
       <p>Why it&apos;s important:</p>
       <p>
-      Regularly reviewing and adjusting your budget helps you stay aligned
+      Regularly <a href="/">reviewing and adjusting</a> your budget helps you stay aligned
       with your financial goals. It also allows you to adapt to any changes in
       your income or expenses.
       </p>

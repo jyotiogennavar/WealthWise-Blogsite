@@ -19,6 +19,10 @@ function BlogPage() {
         <BlogContent />
         <Aside />
       </div>
+
+      <div className={clsx(styles.darkGreyBorder)}></div>
+
+      
     </div>
   );
 }

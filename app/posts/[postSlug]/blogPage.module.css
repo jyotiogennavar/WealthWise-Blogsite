@@ -13,6 +13,11 @@
   gap: 1rem;
 }
 
+.darkGreyBorder {
+  border-bottom: 1px solid var(--color-gray-500);
+  padding: 1rem 0;
+}
+
 @media (min-width: 35rem) {
   .wrapper {
     padding: 0 var(--viewport-padding);
