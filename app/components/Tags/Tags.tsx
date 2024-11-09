@@ -8,7 +8,7 @@ interface TagProps {
 }
 
 function Tag({
-   tag = "default tag"
+   tag = "Investment"
   }: TagProps): JSX.Element {
   return (
     <div className={clsx(styles.tag)}>

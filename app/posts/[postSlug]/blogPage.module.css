@@ -18,6 +18,14 @@
   padding: 1rem 0;
 }
 
+.blogFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+
+}
 @media (min-width: 35rem) {
   .wrapper {
     padding: 0 var(--viewport-padding);
@@ -27,6 +35,13 @@
     margin-top: 4rem;
     grid-template-columns: 50rem 1fr;
     column-gap: 5rem;
+    
+  }
+
+  .blogFooter {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     
   }
 }
