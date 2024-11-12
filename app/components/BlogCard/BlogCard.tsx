@@ -25,7 +25,13 @@ function BlogCard({
         whileHover={{ scale: 1.03 }} // Slight zoom effect
         transition={{ duration: 0.3 }} // Smooth transition
       >
-        <Image src={imageUrl} alt={title} fill className="object-cover" />
+        <Image
+          src={imageUrl}
+          alt={title}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
       </motion.div>
       <div className={clsx(styles.blogCardTextContainer)}>
         <span className={clsx(styles.blogTag)}>{tag}</span>

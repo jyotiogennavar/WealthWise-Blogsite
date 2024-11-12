@@ -13,7 +13,9 @@ function Home() {
           src="/image/homepage_banner.png"
           alt="Banner"
           fill
-          className="object cover"
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          priority
         />
 
         <div className={clsx(styles.bannerTextContainer)}>
