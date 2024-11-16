@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.logoContainer}>
         <Image
-          src="/placeholder.svg?height=40&width=40"
+          src="/image/wealthwise-logo.svg"
           alt=" Logo"
           width={40}
           height={40}

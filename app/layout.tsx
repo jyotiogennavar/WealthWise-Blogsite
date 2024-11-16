@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import { Lato, Montserrat } from "@next/font/google";
+import { Lato, Montserrat } from "next/font/google";
 import clsx from "clsx";
 
 import "./styles.css";
